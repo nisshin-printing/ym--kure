@@ -67,8 +67,8 @@
 					</a>
 				</p>
 				<p class="topheader--button">
-					<a href="https://www.law-yamashita.com/contact" class="button hollow expanded" title="メールで相談予約" target="_blank">
-						<?php NID_SVG::icon( 'mail', array( 'class' => 'button--icon' ), 'メール' ); ?>メールで相談予約</a>
+					<a href="https://www.law-yamashita.com/reserve" class="button hollow expanded" title="Web予約" target="_blank">
+						<?php NID_SVG::icon( 'pc', array( 'class' => 'button--icon' ), 'Web予約' ); ?>Web予約</a>
 				</p>
 				<p class="topheader--button button-group expanded stacked-for-small">
 					<a href="<?php echo get_page_link( '6226' ); ?>" class="button hollow expanded" title="取扱範囲">取扱範囲</a>
