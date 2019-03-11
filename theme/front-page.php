@@ -8,8 +8,8 @@
 <main>
 	<?php
 		get_template_part( './elements/fp-shibheader' );
+		get_template_part( './elements/fp-cta' );
 		get_template_part( './elements/fp-welcome-mess' );
-		// get_template_part( 'elements/cta--jiko-lp' );
 	?>
 
 
@@ -122,8 +122,6 @@
 
 			<?php
 				$args = array(
-					'order' => 'DESC',
-					'orderby' => 'modified',
 					'posts_per_page' => 4,
 					'post_status'    => 'publish'
 				);
@@ -136,7 +134,7 @@
 					while ( $news->have_posts() ) : $news->the_post();
 				?>
 				<dl>
-					<dt><span class="label secondary"><?php the_modified_date( 'Y-m-d' ); ?></span>　<?php the_category( '　' ); ?></dt>
+					<dt><span class="label secondary"><?php echo get_the_date( 'Y-m-d' ); ?></span>　<?php the_category( '　' ); ?></dt>
 					<dd><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></dd>
 				</dl>
 				<?php
@@ -189,6 +187,7 @@ EOM;
 		</div>
 	</div>
 	<?php get_template_part( './elements/fp-special-sites' ); ?>
+	<?php get_template_part( './elements/fp--access' ); ?>
 </main>
 
 <?php get_footer(); ?>
