@@ -57,7 +57,7 @@
 					<div class="column">
 						<p class="text-center"><img src="//www.law-yamashita.com/wp-content/themes/ym-home/assets/img/access/map--toranomon.png" alt="山下江法律事務所東京虎ノ門オフィスまでのアクセス方法"></p>
 						<p class="text-center"><a class="button link-external" href="https://goo.gl/maps/91boNSyxVZm" title="Googleマップで見る" target="_blank" rel="nofollow">Googleマップで見る</a>　<a href="https://www.law-yamashita.com/wp-content/themes/ym-home/assets/img/access/map--toranomon.pdf" class="button">印刷用PDF</a></p>
-						<p>〒105-0001　東京都港区虎ノ門一丁目5-8 オフィス虎ノ門１ビル803号<br>TEL： 03-6632-5355　FAX： 03-6632-5356<br>営業時間：　9：00～18：00</p>
+						<p>〒105-0001　東京都港区虎ノ門一丁目5-8 オフィス虎ノ門１ビル803号<br>TEL： 03-6632-5355　FAX： 03-6632-5356<br>営業時間：　平日9：00～18：00</p>
 					</div>
 				</div>
 			</section>
